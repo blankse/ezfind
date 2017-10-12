@@ -1,31 +1,11 @@
-eZ Find
-=======
+# eZ Find
 
-License: See, [LICENSE](LICENSE)
+Fork von [ezsystems/ezfind](https://github.com/ezsystems/ezfind)
 
-Installation: See, [doc/INSTALL.md](doc/INSTALL.md)
+### Zusätzliche Änderungen
 
-eZ Find is a search extension for eZ Publish, providing more functionality and
-better results than the default search in eZ Publish.
-
-The main advantages of eZ Find are relevancy ranking and keyword highlighting
-the search results. The engine uses heuristics to analyze the structure of
-the information and thus determine relevancy. For example, if a keyword is
-found in a content object's title or in any of its short attributes,
-the object will have higher relevance in the search results (as opposed to
-the search term only occurring within a text block in the content object).
-
-eZ Find also improves on the default eZ Publish search functionality in
-the way it updates the search index. Search results are served from a copy
-of the search index. Therefore, the search index can be updated while the
-search engine continues to serve results from the copy of the most recent
-index. After the index is complete, the copy of the current index is replaced
-with the newest version. In addition, the search engine remembers all caching
-structures from previous searches and, during indexing, updates these as well.
-Therefore, the more the search engine is used, the faster it becomes.
-
-
-Issue tracker
--------------
-Submitting bugs, improvements and stories is possible on https://jira.ez.no/browse/EZP.
-If you discover a security issue, please see how to responsibly report such issues on https://doc.ez.no/Security.
+| Tag | Änderungen |
+| ---  | ---  |
+| v2017.07.0  | [master](https://github.com/ezsystems/ezfind/commit/20f281e789280551a08c2c63cf9ff2b62699cd73) + [PR-198](https://github.com/ezsystems/ezfind/pull/198) + [PR-201](https://github.com/ezsystems/ezfind/pull/201) |
+| v2017.10.0  | [master](https://github.com/ezsystems/ezfind/commit/1d2076763e5ab58fe2ba5a38b0308505a0ff88fc) + [PR-198](https://github.com/ezsystems/ezfind/pull/198) + [PR-201](https://github.com/ezsystems/ezfind/pull/201) |
+| v2017.12.0  | [v2017.12.0](https://github.com/ezsystems/ezfind/releases/tag/v2017.12.0) + [PR-198](https://github.com/ezsystems/ezfind/pull/198) |
